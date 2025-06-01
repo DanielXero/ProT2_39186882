@@ -1,57 +1,78 @@
 </main>
 
-     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <h5 class="mb-3">
-                        <i class="bi bi-motherboard-fill me-2"></i>ZhenNova
-                    </h5>
-                    <p>Tu tienda especializada en insumos de computadoras. Calidad, confianza y tecnología de vanguardia.</p>
-                    <div class="footer-social">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                        <a href="#"><i class="bi bi-youtube"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 mb-4">
-                    <h6 class="mb-3">Enlaces</h6>
-                    <ul class="list-unstyled">
-                        <li><a href="#home" class="text-light text-decoration-none">Inicio</a></li>
-                        <li><a href="#about" class="text-light text-decoration-none">Acerca de</a></li>
-                        <li><a href="#team" class="text-light text-decoration-none">Equipo</a></li>
-                        <li><a href="#contact" class="text-light text-decoration-none">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h6 class="mb-3">Productos</h6>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-light text-decoration-none">Procesadores</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Tarjetas Gráficas</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Memorias RAM</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Almacenamiento</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h6 class="mb-3">Contacto</h6>
-                    <p><i class="bi bi-geo-alt me-2"></i>Av. Tecnológica 123</p>
-                    <p><i class="bi bi-telephone-plus-fill me-2"></i>+1 (555) 123-4567</p>
-                    <p><i class="bi bi-envelope-at-fill me-2"></i>info@zhennova.com</p>
-                </div>
-            </div>
-            <hr class="my-4">
-            <div class="row align-items-center">
-                <div class="col-md-12 text-center">
-                    <p class="mb-0">&copy; 2025 ZhenNova. Todos los derechos reservados.</p>
-                </div>
-            </div>
+    <!-- Footer -->
+<footer class="footer bg-dark text-white py-5">
+  <div class="container">
+    <div class="row g-4">
+      <!-- Información de la empresa -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="mb-3 d-flex align-items-center">
+          <i class="bi bi-motherboard-fill me-2 text-primary"></i>
+          <span>ZhenNova</span>
+        </h5>
+        <p class="small">Tu tienda especializada en insumos de computadoras. Calidad, confianza y tecnología de vanguardia.</p>
+        <div class="footer-social d-flex gap-2">
+          <a href="#" aria-label="Facebook" class="social-icon"><i class="bi bi-facebook fs-5"></i></a>
+          <a href="#" aria-label="Twitter" class="social-icon"><i class="bi bi-twitter fs-5"></i></a>
+          <a href="#" aria-label="Instagram" class="social-icon"><i class="bi bi-instagram fs-5"></i></a>
+          <a href="#" aria-label="LinkedIn" class="social-icon"><i class="bi bi-linkedin fs-5"></i></a>
+          <a href="#" aria-label="YouTube" class="social-icon"><i class="bi bi-youtube fs-5"></i></a>
         </div>
-    </footer>
+      </div>
+
+      <!-- Navegación rápida -->
+      <div class="col-lg-2 col-md-6">
+        <h6 class="mb-3">Enlaces</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#home" class="text-light text-decoration-none mb-2 d-block">Inicio</a></li>
+          <li><a href="#about" class="text-light text-decoration-none mb-2 d-block">Acerca de</a></li>
+          <li><a href="#team" class="text-light text-decoration-none mb-2 d-block">Equipo</a></li>
+          <li><a href="#contact" class="text-light text-decoration-none d-block">Contacto</a></li>
+        </ul>
+      </div>
+
+      <!-- Productos -->
+      <div class="col-lg-3 col-md-6">
+        <h6 class="mb-3">Productos</h6>
+        <ul class="list-unstyled small">
+          <li><a href="#" class="text-light text-decoration-none mb-2 d-block">Procesadores</a></li>
+          <li><a href="#" class="text-light text-decoration-none mb-2 d-block">Tarjetas Gráficas</a></li>
+          <li><a href="#" class="text-light text-decoration-none mb-2 d-block">Memorias RAM</a></li>
+          <li><a href="#" class="text-light text-decoration-none d-block">Almacenamiento</a></li>
+        </ul>
+      </div>
+
+      <!-- Contacto -->
+      <div class="col-lg-3 col-md-6">
+        <h6 class="mb-3">Contacto</h6>
+        <ul class="list-unstyled small">
+          <li class="d-flex align-items-center mb-2">
+            <i class="bi bi-geo-alt me-2 text-primary"></i>
+            <span>Av. Tecnológica 123</span>
+          </li>
+          <li class="d-flex align-items-center mb-2">
+            <i class="bi bi-telephone-plus-fill me-2 text-primary"></i>
+            <span>+1 (555) 123-4567</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="bi bi-envelope-at-fill me-2 text-primary"></i>
+            <span>info@zhennova.com</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="my-4 border-secondary">
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="mb-0 small">&copy; 2025 ZhenNova. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url('assets/js/main.js') ?>"></script>
+    <script src="<?= base_url('public/assets/js/main.js') ?>"></script>
     
   </body>
 </html>
