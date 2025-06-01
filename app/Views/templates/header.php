@@ -74,4 +74,4 @@
   </header>
 
 
-  <main>
+  <main class="main-gradient">
