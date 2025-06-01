@@ -1,6 +1,6 @@
 </main>
 
-    <!-- Footer -->
+<!-- Footer -->
 <footer class="footer bg-dark text-white py-5">
   <div class="container">
     <div class="row g-4">
@@ -48,11 +48,11 @@
         <ul class="list-unstyled small">
           <li class="d-flex align-items-center mb-2">
             <i class="bi bi-geo-alt me-2 text-primary"></i>
-            <span>Av. Tecnológica 123</span>
+            <span>Av. Junin 123</span>
           </li>
           <li class="d-flex align-items-center mb-2">
             <i class="bi bi-telephone-plus-fill me-2 text-primary"></i>
-            <span>+1 (555) 123-4567</span>
+            <span>+54 9 11 12345678</span>
           </li>
           <li class="d-flex align-items-center">
             <i class="bi bi-envelope-at-fill me-2 text-primary"></i>
@@ -71,8 +71,9 @@
     </div>
   </div>
 </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url('public/assets/js/main.js') ?>"></script>
-    
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo base_url('public/assets/js/main.js') ?>"></script>
+
+</body>
+
 </html>

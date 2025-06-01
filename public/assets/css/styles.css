@@ -5,6 +5,7 @@
   --dark-color: #1a252f;
   --light-color: #ecf0f1;
   --text-color: #2c3e50;
+  --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 /*Reseteo CSS*/
@@ -300,9 +301,7 @@ body {
 .team-card:hover {
   transform: translateY(-15px);
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
-} 
-
-
+}
 
 .team-avatar {
   width: 150px;
@@ -319,6 +318,57 @@ body {
   justify-content: center;
   color: white;
   font-size: 3rem;
+}
+.section-acercade {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--dark-color);
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  background: var(--gradient);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.map-container {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* Footer */

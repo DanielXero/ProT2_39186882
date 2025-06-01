@@ -14,9 +14,9 @@ class Pages extends Controller
         // Pasamos un título dinámico a la vista
         $data['title'] = 'Inicio';
 
-        echo view('templates/header', $data);
-        echo view('pages/home');
-        echo view('templates/footer');
+        return view('templates/header', $data) .
+            view('pages/home') .
+            view('templates/footer');
     }
 
     /**
@@ -27,8 +27,8 @@ class Pages extends Controller
         $data['title'] = 'Acerca de Nosotros';
 
         return view('templates/header', $data) .
-               view('pages/acerca-de') .
-               view('templates/footer');
+            view('pages/acerca-de') .
+            view('templates/footer');
     }
 
     /**
@@ -39,8 +39,8 @@ class Pages extends Controller
         $data['title'] = '¿Quiénes Somos?';
 
         return view('templates/header', $data) .
-               view('pages/quienes-somos') .
-               view('templates/footer');
+            view('pages/quienes-somos') .
+            view('templates/footer');
     }
 
     /**
@@ -51,8 +51,8 @@ class Pages extends Controller
         $data['title'] = 'Iniciar Sesión';
 
         return view('templates/header', $data) .
-               view('pages/login') .
-               view('templates/footer');
+            view('pages/login') .
+            view('templates/footer');
     }
 
     /**
@@ -63,7 +63,7 @@ class Pages extends Controller
         $data['title'] = 'Registrarse';
 
         return view('templates/header', $data) .
-               view('pages/registro') .
-               view('templates/footer');
+            view('pages/registro') .
+            view('templates/footer');
     }
 }

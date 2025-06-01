@@ -43,7 +43,7 @@
         <div class="card team-card">
           <div class="card-body text-center">
             <div class="team-avatar">
-              <i class="fas fa-user-cog"></i>
+              
             </div>
             <h4 class="card-title">Ana Martinez</h4>
             <p class="text-muted">CTO & Co-fundadora</p>
