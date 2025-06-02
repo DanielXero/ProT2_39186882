@@ -1,60 +1,38 @@
-# CodeIgniter 4 Framework
+# Proyecto Integrador Tramo 2 - ZhenNova
 
-## What is CodeIgniter?
+Este proyecto fue desarrollado como parte del **Ejercicio Integrador del Tramo 2** del programa **Talentos Digitales**. El objetivo principal era aplicar los conceptos de diseño web responsivo utilizando el framework Bootstrap 5.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+**ZhenNova** es un sitio web estático y responsivo para una tienda ficticia de componentes de computadora. El proyecto demuestra la maquetación de múltiples páginas, el uso de diversos componentes de Bootstrap y la implementación de interactividad básica con JavaScript.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+---
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## 🚀 Características y Requisitos Cumplidos
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+Este proyecto cumple con todos los requisitos solicitados en la consigna de la actividad:
 
-## Important Change with index.php
+* **Sitio 100% Responsivo:** El diseño se adapta fluidamente a pantallas de móviles, tablets y escritorio.
+* **Múltiples Páginas:** El sitio cuenta con las siguientes páginas enlazadas entre sí:
+    * Principal (Inicio)
+    * Acerca de
+    * Quiénes Somos
+    * Registro
+    * Login
+    * Términos y Condiciones
+* **Componentes de Bootstrap Utilizados:**
+    * ✅ **Navbar:** Una barra de navegación superior que se colapsa en vistas móviles, con logo y buscador.
+    * ✅ **Carrusel:** Utilizado en la página principal para mostrar productos destacados.
+    * ✅ **Cards (Tarjetas):** Implementadas en las secciones "Acerca de" y "Quiénes Somos" para presentar información de forma modular.
+    * ✅ **Formularios:** Formularios de Registro y Login estilizados y validados del lado del cliente.
+    * ✅ **Botones:** Utilizados en todo el sitio para acciones y enlaces.
+    * ✅ **Acordeón:** Implementado en la página de "Términos y Condiciones" para organizar el contenido.
+* **Versionado de Código:** El proyecto fue gestionado con Git y subido a este repositorio de GitHub, cumpliendo con la solicitud de realizar múltiples commits a lo largo del desarrollo.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+---
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## 🛠️ Tecnologías Utilizadas
 
-**Please** read the user guide for a better explanation of how CI4 works!
+* 🌐 **Frontend:** HTML5, CSS3, JavaScript.
+* 🎨 **Framework CSS:** Bootstrap 5.3 
+* 🔧 **Estructura Backend:** El proyecto está estructurado utilizando **CodeIgniter 4** para una mejor organización de las vistas y el manejo de rutas (`base_url`, `site_url`).
 
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+---
