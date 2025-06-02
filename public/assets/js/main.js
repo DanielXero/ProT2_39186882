@@ -1,7 +1,10 @@
+// Ejecuta el código cuando el HTML ha cargado completamente.
 document.addEventListener("DOMContentLoaded", function () {
+  // Gestiona la funcionalidad de autocompletado para el campo de búsqueda.
   const searchInput = document.getElementById("searchInput");
   const resultsBox = document.getElementById("autocompleteResults");
 
+   // Muestra/oculta resultados de autocompletado mientras el usuario escribe.
   searchInput.addEventListener("input", function () {
     const query = this.value.trim();
 
@@ -20,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Ocultar resultados al hacer clic fuera
+  // Oculta los resultados del autocompletado si se hace clic fuera del área de búsqueda.
   document.addEventListener("click", function (e) {
     if (!resultsBox.contains(e.target) && e.target !== searchInput) {
       resultsBox.classList.remove("show");
@@ -29,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Toggle password visibility
+// Alterna la visibilidad de una contraseña en un campo de entrada (input).
 function togglePassword(inputId) {
   const input = document.getElementById(inputId);
   const icon = input.closest(".input-group").querySelector("i");
@@ -47,9 +50,11 @@ function togglePassword(inputId) {
 
 // Validaciones adicionales antes de enviar el formulario de registro
 document.addEventListener("DOMContentLoaded", function () {
+  // Valida el formulario de registro y muestra un modal de éxito al enviar.
   const form = document.getElementById("registerForm");
 
   if (form) {
+    // Previene el envío por defecto, valida campos y muestra modal o errores.
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       let isValid = true;
@@ -99,10 +104,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("loginForm");
 
   if (form) {
+    // Previene el envío por defecto y muestra un toast de mantenimiento.
     form.addEventListener("submit", function (e) {
       e.preventDefault();
 

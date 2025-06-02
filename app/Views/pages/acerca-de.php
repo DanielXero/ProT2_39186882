@@ -1,3 +1,5 @@
+
+<!-- Acerca De -->
 <section class="section-acercade">
         <div class="container">
             <h2 class="section-title">Acerca de ZhenNova</h2>
@@ -34,7 +36,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="<?= base_url('public/assets/img/acerca.png') ?>" class="img-fluid rounded-3 shadow" alt="Nuestra tienda">
+                    <img src="<?= base_url('public/assets/img/acerca.png') ?>" class="img-fluid shadow-sm rounded" loading="lazy" alt="Nuestra tienda">
                 </div>
             </div>
 

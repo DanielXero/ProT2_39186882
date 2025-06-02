@@ -66,4 +66,16 @@ class Pages extends Controller
             view('pages/registro') .
             view('templates/footer');
     }
+
+        /**
+     * Muestra el formulario de registro
+     */
+    public function terminosCondiciones()
+    {
+        $data['title'] = 'Terminos y Condiciones';
+
+        return view('templates/header', $data) .
+            view('pages/terminos-y-condiciones') .
+            view('templates/footer');
+    }
 }

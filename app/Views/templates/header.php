@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title> <?= esc($title) ?> | ZhenNova</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      href="<?php echo base_url('public/assets/css/bootstrap.min.css') ?>"
       rel="stylesheet" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -22,7 +23,7 @@
         <div class="container">
           <!-- Logo -->
           <a class="navbar-brand d-flex align-items-center" href="<?= site_url('/') ?>">
-            <img src="<?= base_url('public/assets/img/logo.png') ?>" alt="ZhenNova Logo" style="max-height: 60px" />
+            <img src="<?= base_url('public/assets/img/logo.png') ?>" class="img-fluid shadow-sm rounded" loading="lazy" alt="ZhenNova Logo" style="max-height: 60px" />
           </a>
 
           <!-- Botón de hamburguesa -->
@@ -64,9 +65,13 @@
 
             <!-- Grupo derecho -->
             <ul class="navbar-nav ms-auto mt-4 mt-lg-0">
-              <li class="nav-item ">
+              <li class="nav-item me-3">
 
                 <a class="btn btn-outline-light" href="<?= site_url('/login') ?>"> <i class="bi bi-person"></i> Ingresar</a>
+              </li>
+              <li class="nav-item ">
+
+                <a class="btn btn-outline-light" href="<?= site_url('/registro') ?>"> <i class="bi bi-person"></i> Registrarse</a>
               </li>
             </ul>
           </div>

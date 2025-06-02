@@ -1,3 +1,5 @@
+
+<!-- Registro -->
 <section class="py-5">
     <div class="container">
         <div class="row justify-content-center">
@@ -63,7 +65,7 @@
                             <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" id="terminos" required>
                                 <label class="form-check-label" for="terminos">
-                                    Acepto los <a href="#" class="text-primary">Términos y Condiciones</a> y la <a href="#" class="text-primary">Política de Privacidad</a>
+                                    Acepto los <a href="<?= site_url('/terminos-y-condiciones') ?>" class="text-primary">Términos y Condiciones</a>
                                 </label>
                             </div>
 

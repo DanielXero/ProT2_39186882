@@ -12,11 +12,11 @@
         </h5>
         <p class="small">Tu tienda especializada en insumos de computadoras. Calidad, confianza y tecnología de vanguardia.</p>
         <div class="footer-social d-flex gap-2">
-          <a href="#" aria-label="Facebook" class="social-icon"><i class="bi bi-facebook fs-5"></i></a>
-          <a href="#" aria-label="Twitter" class="social-icon"><i class="bi bi-twitter fs-5"></i></a>
-          <a href="#" aria-label="Instagram" class="social-icon"><i class="bi bi-instagram fs-5"></i></a>
-          <a href="#" aria-label="LinkedIn" class="social-icon"><i class="bi bi-linkedin fs-5"></i></a>
-          <a href="#" aria-label="YouTube" class="social-icon"><i class="bi bi-youtube fs-5"></i></a>
+          <a href="https://www.facebook.com/Talentosdigitalescorrientes/" target="_blank" aria-label="Facebook" class="social-icon"><i class="bi bi-facebook fs-5"></i></a>
+          <a href="https://x.com/talentosctes" target="_blank" aria-label="Twitter" class="social-icon"><i class="bi bi-twitter fs-5"></i></a>
+          <a href="https://www.instagram.com/talentosdigitalescorrientes/" target="_blank" aria-label="Instagram" class="social-icon"><i class="bi bi-instagram fs-5"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn" class="social-icon"><i class="bi bi-linkedin fs-5"></i></a>
+          <a href="https://www.youtube.com/@TalentosDigitales" aria-label="YouTube" class="social-icon"><i class="bi bi-youtube fs-5"></i></a>
         </div>
       </div>
 
@@ -24,10 +24,10 @@
       <div class="col-lg-2 col-md-6">
         <h6 class="mb-3">Enlaces</h6>
         <ul class="list-unstyled small">
-          <li><a href="#home" class="text-light text-decoration-none mb-2 d-block">Inicio</a></li>
-          <li><a href="#about" class="text-light text-decoration-none mb-2 d-block">Acerca de</a></li>
-          <li><a href="#team" class="text-light text-decoration-none mb-2 d-block">Equipo</a></li>
-          <li><a href="#contact" class="text-light text-decoration-none d-block">Contacto</a></li>
+          <li><a href="<?= site_url('/') ?>" class="text-light text-decoration-none mb-2 d-block">Inicio</a></li>
+          <li><a href="<?= site_url('/acerca-de') ?>" class="text-light text-decoration-none mb-2 d-block">Acerca de</a></li>
+          <li><a href="<?= site_url('/quienes-somos') ?>" class="text-light text-decoration-none mb-2 d-block">Quienes Somos</a></li>
+          <li><a href="<?= site_url('/terminos-y-condiciones') ?>" class="text-light text-decoration-none d-block">Terminos y Condiciones</a></li>
         </ul>
       </div>
 
@@ -71,7 +71,7 @@
     </div>
   </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo base_url('public/assets/js/bootstrap.bundle.min.js') ?>"></script>
 <script src="<?php echo base_url('public/assets/js/main.js') ?>"></script>
 
 </body>

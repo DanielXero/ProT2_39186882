@@ -1,4 +1,4 @@
-<!-- Team Section -->
+<!--  Quienes Somos -->
 <section class="section-team">
   <div class="container">
     <div class="section-title fade-in text-center">
@@ -24,9 +24,7 @@
       <div class="col-lg-4 col-md-6 mb-4 fade-in">
         <div class="card team-card">
           <div class="card-body text-center">
-            <div class="team-avatar">
-              <i class="fas fa-user-tie"></i>
-            </div>
+            <img src="<?php echo base_url('public/assets/img/quienes-1.png') ?>" class="img-fluid shadow-sm rounded" alt="CEO">
             <h4 class="card-title">Carlos Rodriguez</h4>
             <p class="text-muted">CEO & Fundador</p>
             <p class="card-text">Ingeniero en Sistemas con 15 años de experiencia en el sector tecnológico. Visionario y líder del proyecto ZhenNova.</p>
@@ -42,9 +40,7 @@
       <div class="col-lg-4 col-md-6 mb-4 fade-in">
         <div class="card team-card">
           <div class="card-body text-center">
-            <div class="team-avatar">
-              
-            </div>
+            <img src="<?php echo base_url('public/assets/img/quienes-2.png') ?>" class="img-fluid shadow-sm rounded" alt="CTO">
             <h4 class="card-title">Ana Martinez</h4>
             <p class="text-muted">CTO & Co-fundadora</p>
             <p class="card-text">Especialista en hardware y arquitectura de computadoras. Responsable de la selección y evaluación técnica de productos.</p>
@@ -60,9 +56,7 @@
       <div class="col-lg-4 col-md-6 mb-4 fade-in">
         <div class="card team-card">
           <div class="card-body text-center">
-            <div class="team-avatar">
-              <i class="fas fa-user-friends"></i>
-            </div>
+            <img src="<?php echo base_url('public/assets/img/quienes-3.png') ?>" class="img-fluid shadow-sm rounded" alt="Director de Ventas">
             <h4 class="card-title">Miguel Gonzalez</h4>
             <p class="text-muted">Director de Ventas</p>
             <p class="card-text">Experto en atención al cliente y ventas consultivas. Garantiza la mejor experiencia de compra para nuestros clientes.</p>
